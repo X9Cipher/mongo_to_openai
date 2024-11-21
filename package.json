@@ -1,0 +1,16 @@
+{
+  "name": "openai-assistant-mongodb",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.3.0",
+    "openai": "^4.72.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
